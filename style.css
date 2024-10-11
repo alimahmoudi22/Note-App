@@ -52,3 +52,26 @@ body{
     margin-right: 1rem;
     
 }
+.notes-container{
+
+}
+.note{
+    position: relative;
+    width: 100%;
+    max-width: 60rem;
+    min-width: 50rem;
+    min-height: 16rem;
+    background-color: #FFF;
+    padding: 2rem;
+    color: #333;
+    border-radius: .5rem;
+    margin: 2rem 0;
+    outline: none;
+}
+.note img{
+    width: 2.5rem;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
